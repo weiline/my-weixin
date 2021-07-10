@@ -1,0 +1,32 @@
+{
+  "pages":[
+   "pages/index/index",
+    "pages/logs/logs",
+    "pages/wxml/index",
+    "pages/join/join",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTitleText": "MyWeixin",
+    "navigationBarTextStyle":"black"
+  },
+ "tabBar": {
+   "list": [{
+     "pagePath": "pages/index/index",
+     "text": "首页",
+     "iconPath": "images/index_ico_normal.png",
+     "selectedIconPath": "images/index_ico_on.png"
+   },
+   {
+    "pagePath": "pages/join/join",
+    "text": "我们",
+    "iconPath": "images/us_ico_normal.png",
+    "selectedIconPath": "images/us_ico_on.png"
+  }]
+ },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

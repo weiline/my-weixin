@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/wxml/index",
+          "pathName": "pages/wxml/index",
+          "query": "pages/index/index",
+          "scene": 1011
+        },
+        {
+          "name": "详情页",
+          "pathName": "pages/detail/detail",
+          "query": "title",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

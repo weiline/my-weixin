@@ -1,0 +1,7 @@
+<!--pages/detail/detail.wxml-->
+<view>
+<view>详情介绍</view>
+<image src="{{image}}"></image>
+<view>{{title}}</view>
+<text>{{desc}}</text>
+</view>
